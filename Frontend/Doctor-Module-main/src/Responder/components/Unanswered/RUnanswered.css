@@ -1,0 +1,90 @@
+.resp2-navbar{
+    margin-top: -15px;
+    width: 1650px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px; /* Increase padding for more space */
+    font-size: 25px;
+    font-family:serif;
+}
+.resp2-navbar-brand,.resp2-navbar-toggler{
+    margin-left: 2vw;
+    font-size: 30px; /* Increase font size */
+}
+/* body{
+  background: #1FA2FF;
+  background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+  background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); 
+} */
+/* AdminPanel.css */
+
+/* Navbar style */
+.resp2-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .resp2-nav-item{
+    display: inline-block; /* Ensures list items appear in a line */
+    margin-right: 5vw; /* Adjust the right margin for space between links */
+  }
+  .resp2-nav-item:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .resp2-nav-item a {
+    text-decoration: none;
+    color: #000; /* Adjust link color as needed */
+  }
+  
+  /* Center the nav items */
+  .resp2-navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .resp2-collapse{
+    margin-right: 40vw;
+  }
+  
+  /* Adjust dropdown position if needed */
+
+  
+ 
+  .resp2-logo{
+    width: 100px;
+    height: 80px;
+  }
+  .resp2-Main-content1{
+    display:flex;
+  }
+  .resp2-unanswered-ques{
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .resp2-moving-img {
+    position: fixed; /* Position the image fixed */
+    top: 50%; /* Position from the top */
+    left: 20px; /* Position from the left */
+    transform: translateY(-50%); /* Adjust vertical position */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  /* Adjust the width and height of the image as needed */
+  .resp2-moving-img {
+    width: 400px;
+    height: 600px;
+    margin-left: 5px;
+    margin-top: 80px;
+  }
+  
+  /* Add transition effect to smooth movement */
+  .resp2-moving-img {
+    transition: top 0.3s ease;
+  }
+  

@@ -1,0 +1,151 @@
+.mod1-app-container{
+  width: 50vw;
+}
+.mod1-navbar{
+    margin-top: -15px;
+    width: 1665px;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px; /* Increase padding for more space */
+    font-size: 25px;
+    font-family:serif;
+}
+.mod1-navbar-brand,.mod1-navbar-toggler{
+    font-size: 30px; /* Increase font size */
+}
+
+/* AdminPanel.css */
+
+/* Navbar style */
+.mod1-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .mod1-navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+  }
+  
+  .mod1-nav-item {
+    margin-right: 7vw;
+    font-size:x-large;
+    margin-top: 2vh;
+  }
+  
+  /* Adjust dropdown position if needed */
+  .mod1-nav-item.dropdown {
+    position: relative;
+    margin-right: 20px;
+  }
+  /* Adjust dropdown position if needed */
+
+  .mod1-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  
+  .mod1-logo{
+    width: 100px;
+    height: 80px;
+  }
+  .mod1-collapse{
+    margin-right: 20vw;
+  }
+  .mod1-main-content1{
+    display: flex;
+    width: 100%;
+    margin-left: 5vw;
+    /* Replace 'background-image.jpg' with your image file name */
+    /* background-image: url("C:\Users\ASUS\Desktop\temp\had\public\images\flagged.png");  */
+    background-size: cover;
+    background-position: center;
+  }
+  .mod1-Posts {
+    /* Add styles for the posts container */
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 2.2vw; /* Adjust the gap as needed relative to viewport width */
+    margin-left: 18vw; /* Margin left relative to viewport width */
+    margin-top: 6.9vh; /* Margin top relative to viewport height */
+}
+
+.mod1-box {
+  width: 15vw;
+  padding: 2.5vw;
+  background-color: rgba(188, 127, 205, 0.7); /* Light pink background */
+  border: 0.5vw solid #e0a6a6; /* Light pink border */
+  border-radius: 2vw;
+  text-align: center;
+  height: 50vh;
+  margin-top: 8vh;
+  position: fixed;
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  right: 0;
+  margin-right: 5vw;
+}
+
+  
+  .mod1-heading {
+    margin-bottom: 15px; /* Increased margin for better spacing */
+    font-size: 20px; /* Larger font size for headings */
+    color: #ffffff; /* Darker text color */
+  }
+  .mod1-heading {
+     /* Increased margin for better spacing */
+    font-size: 30px; /* Larger font size for headings */
+    color: #ffffff; /* Darker text color */
+  }
+  
+  .mod1-circle {
+    width: 120px; /* Increased size for the circle */
+    height: 120px; /* Increased size for the circle */
+    border-radius: 50%;
+    background-color:rgb(134, 70, 156,0.7); /* Blue circle background */
+    color: white;
+    font-size: 36px; /* Larger font size for the circle */
+    line-height: 120px; /* Center text vertically */
+    margin: 0 auto 15px; /* Adjusted margin for better spacing */
+  }
+  
+  .mod1-circle-text {
+    font-size: 18px;
+    color: #555; /* Slightly darker text color */
+  }
+  .mod1-flag-img{
+    width: 25vw;
+    height: 350px;
+    position: fixed;
+    bottom: 0;
+    margin-left: -60px;
+
+  }
+  .mod1-img{
+    margin-right: 40px;
+  }
+  .ai-button {
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .ai-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  

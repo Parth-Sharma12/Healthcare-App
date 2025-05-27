@@ -1,0 +1,59 @@
+.resp6-navbar{
+    margin-top: -15px;
+    width: 100vw;
+    height: 100px;
+    background-color:#86469C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px; /* Increase padding for more space */
+    font-size: 1.5vw;
+    
+}
+.resp6-navbar-brand,.mod6-navbar-toggler{
+   
+    font-size: 2.5vw; /* Increase font size */
+    white-space:nowrap;
+    margin-left: 1vw;
+}
+
+/* AdminPanel.css */
+
+/* Navbar style */
+.resp6-navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  /* Center the nav items */
+  .resp6-navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resp6-nav-item {
+    
+  
+    margin-right: 100px; /* Adjust the margin as needed */
+  }
+  
+  /* Adjust dropdown position if needed */
+  .resp6-nav-item.dropdown {
+    position: relative;
+    margin-right: 10vw;
+  }
+  
+  .resp6-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+ 
+  .resp6-logo{
+    margin-top:2vh ;
+    width: 100px;
+    height: 80px;
+  }
+  

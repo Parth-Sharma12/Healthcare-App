@@ -1,0 +1,94 @@
+.question-answer-card {
+  width: 50vw; /* Width relative to viewport width */
+  height: 80vh;
+  background-color: rgb(249, 249, 249, 0.7);
+  border-radius: 2.2vw; /* Border radius relative to viewport width */
+  border: 0.2vw solid black; /* Border width relative to viewport width */
+  padding: 1.6vw; /* Padding relative to viewport width */
+  margin-bottom: 2.8vh; /* Margin bottom relative to viewport height */
+  box-shadow: 0 0.4vw 0.8vw rgba(0, 0, 0, 0.1); /* Soft shadow effect relative to viewport width */
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header {
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.question-answer-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+
+.question-answer-card p {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+.ques-content {
+  border: 0.1vw solid #ddd; /* Border width relative to viewport width */
+  border-radius: 0.9vw; /* Border radius relative to viewport width */
+  padding: 1.2vw; /* Padding relative to viewport width */
+  margin-bottom: 1.2vw; /* Margin bottom relative to viewport width */
+  height: 6.9vh; /* Height relative to viewport height */
+  overflow: auto;
+}
+
+
+.vote-buttons {
+  margin-top: auto;
+}
+
+.vote-buttons button {
+  padding: 10px 20px;
+  background-color: #86469C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+
+}
+
+.vote-buttons button:hover {
+  background-color: #BC7FCD;
+
+}
+.vote-buttons:focus {
+  outline: none;
+}
+
+.vote-buttons:active {
+  background-color: #BC7FCD;
+} 
+.ans-content {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  height: 300px;
+  overflow: auto;
+}
+
+.flagged-indicator {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.answer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.answer-timing {
+  font-style: italic;
+}
