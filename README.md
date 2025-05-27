@@ -3,7 +3,13 @@
 **TranquilMind** is a comprehensive mental healthcare platform designed to support patients through accessible tools, expert guidance, and community engagement.
 
 ---
+## 📽 Demo
 
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+  <img src="https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube" />
+</a>
+
+---
 ## 🧩 Platform Modules
 
 The application is composed of four main components:
